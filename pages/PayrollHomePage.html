@@ -31,7 +31,29 @@
         </div>
         <!-- UC3     --> 
         <div class="table-content">
-            <table class="table">
+            <table id="display" class="table">
+                <tr>
+                    <th></th>
+                    <th>Name</th>
+                    <th>Gender</th>
+                    <th>Department</th>
+                    <th>Salary</th>
+                    <th>startdate</th>
+                    <th>Actions</th>
+                </tr>
+                <tr>
+                    <td><img class="profile" src="../assets/profileimages/Ellipse-5.png" alt="" ></td>
+                    <td>Mohsin</td>
+                    <td>Male</td>
+                    <td><div class="dept_label">HR</div>
+                        <div class="dept-label">Finance</div></td>
+                    <td>300000</td>   
+                    <td>1 Nov 2020</td>
+                    <td>
+                        <img id="1" onclick="remove(this)" src="../assets/icons/delete-black-18dp.svg" alt="delete">
+                        <img id="1" onclick="update(this)" src="../assets/icons/create-black-18dp.svg" alt="edit">
+                    </td> 
+                </tr>
             </table>
         </div>
     </div>
